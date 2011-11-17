@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Atsauksmes</name>
+    <author>Intelligence Media Group</author>
+    <creationDate>10/11/2011</creationDate>
+    <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description>Saņemtās atsauksmes par Karlin's Picēriju un produktiem.</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.atsauksmes.php</installfile>
+    <uninstallfile>uninstall.atsauksmes.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_atsauksmes">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>atsauksmes.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_atsauksmes.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">Atsauksmes</menu>
+    <submenu>
+        <menu link="option=com_atsauksmes">Atsauksmes</menu>
+    </submenu>
+
+    <files>
+        <filename>atsauksmes.xml</filename>
+    </files>
+    <files folder="administrator/components/com_atsauksmes">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.atsauksmes.php</filename>
+        <filename>atsauksmes.php</filename>
+        <filename>uninstall.atsauksmes.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_atsauksmes.menu.ini</language>
+        <language tag="en-GB">en-GB.com_atsauksmes.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

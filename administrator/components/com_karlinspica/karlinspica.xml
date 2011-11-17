@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Karlins Pica</name>
+    <author>Intelligence Media Group</author>
+    <creationDate>08/11/2011</creationDate>
+    <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description>Karlins pica preču pārvaldnieks</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.karlinspica.php</installfile>
+    <uninstallfile>uninstall.karlinspica.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_karlinspica">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>karlinspica.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_karlinspica.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">Karlins Pica</menu>
+    <submenu>
+        <menu link="option=com_karlinspica">Karlins Pica</menu>
+    </submenu>
+
+    <files>
+        <filename>karlinspica.xml</filename>
+    </files>
+    <files folder="administrator/components/com_karlinspica">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.karlinspica.php</filename>
+        <filename>karlinspica.php</filename>
+        <filename>uninstall.karlinspica.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_karlinspica.menu.ini</language>
+        <language tag="en-GB">en-GB.com_karlinspica.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

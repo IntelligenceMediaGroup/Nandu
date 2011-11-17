@@ -1,0 +1,103 @@
+#scrollbar .content{
+	position: relative;
+}
+#scrollbar {
+	overflow: hidden;
+	z-index:auto;
+	position: absolute;
+
+}
+
+
+
+.scrollbar {
+
+	position: relative;
+
+	float:right;
+
+}
+
+
+
+.scrollbar *{
+
+	margin:0;
+
+	padding:0;
+
+	font-style:normal;
+
+	text-decoration:none;
+
+}
+
+
+
+.scrollbar .back{
+
+	-webkit-transition: background-color 0.5s ease-out;
+
+	-moz-transition: background-color 0.5s ease-out;
+
+	transition: background-color 0.5s ease-out;
+
+	
+
+	cursor:pointer;
+
+	position:absolute;
+
+	
+
+	background-color:#E6E6E6;
+
+}
+.scrollbar .back.over{
+
+	background-color:#CCCCCC;
+
+}
+.scrollbar .dragger{
+	-webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	cursor:pointer;
+	position:absolute;
+	height:100px;
+}
+div.scroll_button{
+
+	height:30px;
+
+	width:30px;
+
+	
+
+	position: relative;
+
+	margin:5px 0px;
+
+	margin-right:3px;
+
+	float:right;
+
+	
+
+	cursor:pointer;
+
+}
+
+
+
+div.scroll_button span.hover{
+
+	height:30px;
+
+	width:30px;
+
+	position: absolute;
+
+	cursor:pointer;
+
+}

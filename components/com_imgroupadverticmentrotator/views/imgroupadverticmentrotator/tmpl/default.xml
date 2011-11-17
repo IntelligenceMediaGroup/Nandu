@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="IM Group Adverticment rotator Default Layout">
+		<message>
+			<![CDATA[IMGROUPADVERTICMENTROTATOR DEFAULT LAYOUT DESCRIPTION]]>
+		</message>
+	</layout>
+	<state>
+		<name>IM Group Adverticment rotator Default Layout</name>
+		<description>Imgroupadverticmentrotator DEFAULT LAYOUT DESCRIPTION</description>
+        <url>
+
+        </url>
+		<params>
+
+		</params>
+		<advanced>
+
+		</advanced>
+	</state>
+</metadata>
